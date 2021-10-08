@@ -239,7 +239,5 @@ function Demo() {
     </div>
   )
 }
-ReactDOM.render(
-  <Demo />,
-  document.getElementById('root')
-)
+
+export default Demo
