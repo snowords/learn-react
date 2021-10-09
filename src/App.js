@@ -1,7 +1,7 @@
 import Game from './demo-game'
 import Demo from './demo-main'
 import FilterableProductTable from './demo-spirit'
-import Header from './stories/Header'
+// import Header from './stories/Header'
 
 function App() {
   
@@ -19,7 +19,7 @@ function App() {
       <Game />
       <Demo />
       <FilterableProductTable products={PRODUCTS} />
-      <Header />
+      {/* <Header /> */}
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
